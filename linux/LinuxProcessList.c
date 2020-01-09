@@ -26,6 +26,7 @@ in the source distribution for its full text.
 #include <assert.h>
 #include <sys/types.h>
 #include <fcntl.h>
+#include <sys/sysmacros.h>
 
 #ifdef HAVE_DELAYACCT
 #include <netlink/attr.h>

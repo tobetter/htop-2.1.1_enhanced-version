@@ -28,6 +28,7 @@ in the source distribution for its full text.
 #include <time.h>
 #include <assert.h>
 #include <math.h>
+#include <sys/sysmacros.h>
 
 #ifdef __ANDROID__
 #define SYS_ioprio_get __NR_ioprio_get
